@@ -1,0 +1,42 @@
+.random-color-app {
+    padding: 24px;
+    margin: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* khoảng cách giữa các nút */
+    margin-bottom: 24px;
+  }
+  
+  .color-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .color-button:hover {
+    background-color: #f0f0f0; /* màu nền khi hover */
+    transform: translateY(-2px);
+  }
+  
+  .color-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .color-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
